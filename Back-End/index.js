@@ -156,7 +156,7 @@ conn
   )
   .catch((error) => console.error(error));
 
-
+/*
 conn.sync({ force: true }).then(() =>
   Detail.bulkCreate(details).then(() =>
     Category.bulkCreate(categories).then(() =>
@@ -270,7 +270,7 @@ conn.sync({ force: true }).then(() =>
     )
   )
 );
-
+*/
 //           .then(async () => {
 //             const dbUsers = await User.findAll();
 
