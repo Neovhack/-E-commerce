@@ -1,0 +1,99 @@
+.main section{
+  padding-top: 2em;
+}
+
+.container{
+  background-color: rgb(159, 158, 158);
+  position: fixed;
+  z-index: 1000;
+  background-size: 100%;
+  width: 100%;
+}
+
+.logo {
+  background-image: url(../../Images/logo.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  /* background-color: black; */
+  background-size: 4em;
+  width: 4em;
+  height: 4em;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.link {
+  /* border: 1px solid black; */
+  padding-top: 1.25rem;
+  margin: 0 1.25rem;
+}
+
+.inactive .link {
+  color:white;
+}
+
+.active .link{
+  /* background-color: black; */
+  color:rgb(0, 0, 0);
+}
+
+.nav_right{
+  margin-right: 15px;
+  padding-top: 1rem;
+}
+
+
+.person{
+    margin:0 15px
+}
+
+.inactive .cart{
+  color:white
+}
+
+.cart{
+  display: flex;
+}
+
+.cart p{
+  border-radius: 100%;
+  width: 50%;
+  height: 28px;
+  font-size: small;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btnHiden{
+  display: none;
+}
+
+.btnHiden ul{
+  background-color:rgb(55, 54, 54);
+  opacity: 0.95;
+}
+
+.btnHiden a{
+  color:white;
+}
+
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 950px){
+  .btnHiden{
+    display: flex;
+    align-items: center;
+  }
+
+  .link{
+    display: none;
+  }
+}

@@ -1,0 +1,62 @@
+.general {
+    height: 31em;
+    width: 23em;
+    /* border: .0625rem solid black; */
+    border-radius: 0.5%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.general:hover {
+    box-shadow: 0 4px 8px 0 rgba(31, 198, 240, 0.863), 0 6px 20px 0 rgba(124, 217, 245, 0.76);
+}
+
+.general img {
+    width: 100%;
+    height: 20em;
+    margin-top: 1em;
+}
+
+.general button {
+    background-color: rgb(55, 54, 54);
+    color: white;
+    border-color: black;
+}
+
+.general button:hover {
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+   
+}
+
+h5 {
+    text-align: center;
+}
+
+.fs-X {
+    size: 10rem;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.buttonDisabled{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: white;
+    text-shadow: -1px -1px 5px rgb(0 0 0), 1px 1px 5px rgb(57 39 18);
+    
+}

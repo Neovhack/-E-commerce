@@ -1,0 +1,12 @@
+
+
+.container{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfw7GasPR0Hk2SpiMcDj7hTLXz9_HrmbwrA7A1ZGgHcN84AUeTJQzhoTtfDG0iA_8s4r4&usqp=CAU');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.name{
+  color: blue;
+  border: .0625rem solid black; 
+}

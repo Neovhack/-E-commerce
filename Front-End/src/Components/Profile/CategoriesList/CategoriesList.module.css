@@ -1,0 +1,55 @@
+
+.container{
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  background-color: white;
+  margin: 3% auto 1%;
+  padding: 1%;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 3%;
+  justify-content:center;
+}
+
+.data{
+  margin-top: 3%;
+}
+
+.item{
+  padding-right: 5%;
+}
+
+.catInput{
+  width: 30%;
+}
+
+.addButton{
+  margin-left: 1%;
+}
+
+.button{
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:5px;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: rgb(5, 42, 121);
+  border: none;
+  color: white;
+  text-shadow: -1px -1px 5px rgb(0 0 0), 1px 1px 5px rgb(57 39 18);
+  
+}
+
+.button:hover {
+  background-color: rgb(9, 105, 184);
+}

@@ -1,0 +1,33 @@
+.emptyCart {
+    /* border: 2rem solid blue; */
+    background-color: rgb(159, 158, 158);
+    height: 15rem;
+    position: relative;
+    padding-top: 5%;
+}
+
+
+.general {
+    /* border: 2em solid black; */
+    background-repeat: no-repeat;
+    background-color: rgb(159, 158, 158);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 2rem;
+}
+
+/* .contenedor {
+    position: relative;
+    top: 6rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+} */
+
+.contenedorItems {
+    /* border: 2em solid black; */
+    height: fit-content;
+    min-height: 20rem;
+    justify-content: center;
+
+}

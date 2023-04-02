@@ -1,0 +1,77 @@
+
+.container{
+    width: 62.5rem;
+    height: 9.375rem;  
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    box-shadow: rgba(0, 0, 0, 0.432) 0px 5px 15px;
+    background-color: rgba(252, 248, 248, 0.637);
+    border: 0.063rem solid  rgba(10, 10, 10, 0.164);
+    border-radius: 0.25rem;
+    color: black;
+
+    padding: 1rem;
+    margin: 1rem;
+    transition: all 0.5s;
+}
+
+.container:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.background {
+    background-color: red;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-self: center; 
+
+    text-align: start;
+   
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+
+}
+
+.container3{
+
+    margin-left: 1.25rem;
+}
+
+.container4{
+    width: 40rem;
+}
+
+.rating{
+    font-size: large;
+    font-weight: bold;
+
+}
+ .p{
+    color:white;
+ }
+
+ @media(max-width:1015px){
+    .container{
+        width: auto;
+        height: auto;
+    }
+    .container4{
+        width: auto;
+    }
+    .container3{
+        margin-left: 10px;
+        margin-right: 7px;
+    }
+}
