@@ -10,8 +10,8 @@ export function test(){
 import { ADD_AMOUNT, ADD_CART, ADD_PRICE_CART, CART_RESTORE, DELETE_SERVICE_AMOUNT, GET_DETAILS, GET_TOTAL, REMOVE_ITEM, RESTOTALPRICE, SHOW_CART, SUMTOTALPRICE } from "../Constantes/Constantes"
 import axios from 'axios';
 
-const BACKEND_SERVER =
-  process.env.REACT_APP_BACKEND_SERVER || "http://localhost:3001";
+const BACKEND_SERVER = "https://e-commerce-production-3862.up.railway.app"
+  //process.env.REACT_APP_BACKEND_SERVER || "http://localhost:3001";
 
 //import {Servicios} from '../Mockup/Servicios.js';
 
