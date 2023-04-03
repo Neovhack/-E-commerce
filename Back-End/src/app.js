@@ -23,8 +23,8 @@ server.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:3001",
-      "https://changapp.up.railway.app",
-      "http://changapp.up.railway.app",
+      "https://e-commerce-production-3862.up.railway.app",
+      "https://e-commerce-production-3862.up.railway.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization"],
