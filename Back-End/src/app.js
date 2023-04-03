@@ -23,6 +23,7 @@ server.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:3001",
+      "https://neovhack.github.io",
       "https://e-commerce-production-3862.up.railway.app",
       "https://e-commerce-production-3862.up.railway.app",
     ],
